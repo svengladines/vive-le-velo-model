@@ -4,11 +4,18 @@ import java.util.Date;
 
 public class LocationDTO {
 	
+	protected String uuid;
 	protected String userID;
 	protected double longitude;
 	protected double lattitude;
 	protected Date moment;
 	
+	public String getUuid() {
+		return uuid;
+	}
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 	public String getUserID() {
 		return userID;
 	}
