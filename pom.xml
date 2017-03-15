@@ -29,6 +29,12 @@
 			<artifactId>occam-utils</artifactId>
 			<version>1.0-LATEST-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>be.occam.colloseum</groupId>
+			<artifactId>colloseum-appengine</artifactId>
+			<version>1.0-LATEST-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 
 	<!-- Configure the Maven compiler plugin to compile the project against 
