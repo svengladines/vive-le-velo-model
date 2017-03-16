@@ -8,6 +8,7 @@ public class RideDTO {
 	protected String uuid;
 	protected String title;
 	protected Date moment;
+	protected CoordinateDTO start;
 	
 	public String getUuid() {
 		return uuid;
@@ -32,7 +33,13 @@ public class RideDTO {
 	public void setMoment(Date moment) {
 		this.moment = moment;
 	}
-	
-	
+
+	public CoordinateDTO getStart() {
+		return start;
+	}
+
+	public void setStart(CoordinateDTO start) {
+		this.start = start;
+	}
 	
 }
